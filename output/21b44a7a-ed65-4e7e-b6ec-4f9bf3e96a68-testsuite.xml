@@ -1,0 +1,125 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1760209429376' stop='1760209441787'>
+    <name>Create User:</name>
+    <title>Create User:</title>
+    <test-cases>
+        <test-case start='1760209429378' status='passed' stop='1760209439344'>
+            <name>Login with success</name>
+            <title>Login with success</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1760209430701' status='passed' stop='1760209435986'>
+                    <name>I am logged in as user</name>
+                    <title>I am logged in as user</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1760209430701' status='passed' stop='1760209435248'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1760209435248' status='failed' stop='1760209435986'>
+                            <name>I set cookie [{"domain":".www.automationpractice.pl","expiry":1761937336.328928,"goog:priority":"Medium","goog:sameParty":false,"goog:session":false,"goog:sourcePort":80,"goog:sourceScheme":"NonSecure","httpOnly":true,"name":"PrestaShop-2ae4d32f6206717abc31030c0cc08275","path":"/","sameSite":"none","secure":false,"size":627,"value":"fMQcpHD0y6I%3D3SJAdGgrLtU%3DB7Ogv6m60Bk%3Dsvp92PkY6U8%3DV2yp%2BLfvm1E%3D4%2FYAspTMqAk%3DRMT6wdoS4uk%3D2i7n2hAoRy0%3DIv%2FJ08r6jSY%3D96n6Lx4wLgs%3DfKGDfwTwp0s%3D5j8g%2BpDp0v0%3DgwnaoKVUn5k%3DcOOYs0eyu0s%3D0igdk22HYuE%3DXdQMOfvw6OM%3DGEGeQF5%2FUFg%3DwjelH4P1VI4%3DvSc10RdFjwo%3DicxGhidzO4Y%3D%2B5B6QfH7ys4%3DdO7WIQjJlWg%3D8NcrPNXdD%2Fg%3Dc3srAa1TSmA%3DAyy7F7eO18s%3DpFb57tA%2BWD8%3DM90Mq1HTEYQ%3DZ1pz3lx4PWY%3DlazCe2hxxkU%3D7PRiktzmDp8%3Di90zuoKOXhY%3Dp7Ng4iwtYX0%3DO4OKoaurHhA%3D9o1fh50UGnw%3Dv74hxDbt1Ns%3DX2rOwnVL%2Bq0%3DgMC9QWjKN7o%3D7PoPJQZ3LBo%3D9rwZ1jYdvBY%3DuqGLTo8ifcY%3D000313"}]</name>
+                            <title>I set cookie [{"domain":".www.automationpractice.pl","expiry":1761937336.328928,"goog:priority":"Medium","goog:sameParty":false,"goog:session":false,"goog:sourcePort":80,"goog:sourceScheme":"NonSecure","httpOnly":true,"name":"PrestaShop-2ae4d32f6206717abc31030c0cc08275","path":"/","sameSite":"none","secure":false,"size":627,"value":"fMQcpHD0y6I%3D3SJAdGgrLtU%3DB7Ogv6m60Bk%3Dsvp92PkY6U8%3DV2yp%2BLfvm1E%3D4%2FYAspTMqAk%3DRMT6wdoS4uk%3D2i7n2hAoRy0%3DIv%2FJ08r6jSY%3D96n6Lx4wLgs%3DfKGDfwTwp0s%3D5j8g%2BpDp0v0%3DgwnaoKVUn5k%3DcOOYs0eyu0s%3D0igdk22HYuE%3DXdQMOfvw6OM%3DGEGeQF5%2FUFg%3DwjelH4P1VI4%3DvSc10RdFjwo%3DicxGhidzO4Y%3D%2B5B6QfH7ys4%3DdO7WIQjJlWg%3D8NcrPNXdD%2Fg%3Dc3srAa1TSmA%3DAyy7F7eO18s%3DpFb57tA%2BWD8%3DM90Mq1HTEYQ%3DZ1pz3lx4PWY%3DlazCe2hxxkU%3D7PRiktzmDp8%3Di90zuoKOXhY%3Dp7Ng4iwtYX0%3DO4OKoaurHhA%3D9o1fh50UGnw%3Dv74hxDbt1Ns%3DX2rOwnVL%2Bq0%3DgMC9QWjKN7o%3D7PoPJQZ3LBo%3D9rwZ1jYdvBY%3DuqGLTo8ifcY%3D000313"}]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1760209435986' status='passed' stop='1760209436920'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1760209436921' status='passed' stop='1760209438073'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1760209438073' status='passed' stop='1760209438082'>
+                    <name>I wait for element "#email", 10</name>
+                    <title>I wait for element "#email", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1760209438082' status='passed' stop='1760209438193'>
+                    <name>I fill field "#email", "marcelomattos@gmail.com"</name>
+                    <title>I fill field "#email", "marcelomattos@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1760209438194' status='passed' stop='1760209438203'>
+                    <name>I wait for element "#passwd", 10</name>
+                    <title>I wait for element "#passwd", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1760209438203' status='passed' stop='1760209438277'>
+                    <name>I fill field "#passwd", *****</name>
+                    <title>I fill field "#passwd", *****</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1760209438277' status='passed' stop='1760209439338'>
+                    <name>I click "#SubmitLogin"</name>
+                    <title>I click "#SubmitLogin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1760209439338' status='passed' stop='1760209439342'>
+                    <name>I grab cookie</name>
+                    <title>I grab cookie</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1760209439377' status='failed' stop='1760209441764'>
+            <name>Validate E-mail On Create User</name>
+            <title>Validate E-mail On Create User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1760209440309' status='passed' stop='1760209440997'>
+                    <name>I am on page "/12"</name>
+                    <title>I am on page "/12"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1760209440997' status='failed' stop='1760209441764'>
+                    <name>On home_page: access login page</name>
+                    <title>On home_page: access login page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1760209440997' status='failed' stop='1760209441763'>
+                            <name>I click ".login"</name>
+                            <title>I click ".login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Clickable element ".login" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element ".login" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Users\eduar\Documents\projetos\automacao-codeceptjs-web\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:15:11)
+                    at assertElementExists (C:\Users\eduar\Documents\projetos\automacao-codeceptjs-web\node_modules\codeceptjs\lib\helper\WebDriver.js:2979:11)
+                    at WebDriver.click (C:\Users\eduar\Documents\projetos\automacao-codeceptjs-web\node_modules\codeceptjs\lib\helper\WebDriver.js:1008:7)
+                    at async Test.&lt;anonymous> (C:\Users\eduar\Documents\projetos\automacao-codeceptjs-web\steps\create_user_test.js:26:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

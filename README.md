@@ -10,19 +10,21 @@ Este projeto foi desenvolvido utilizando CodeceptJS + WebDriver, com foco na aut
 - WebDriver -  Tecnologia subjacente usada pelo CodeceptJS para interagir com o navegador.
 - JavaScript - Linguagem base para desenvolvimento dos scripts de teste.
 
-### Clonar o Projeto
+Siga os passos abaixo para acessar o projeto e executar os testes.
+
+### Passo 1: Clonar o Projeto
 
 ```
 git clone https://github.com/eduardoamorimqa/codeceptjs-webdriver.git
 ```
 
-### Instalar Dependências
+### Passo 2: Instalar as Dependências
 
 ```
 npm install
 ```
 
-### Rodar os Testes
+### Passo 3: Rodar os Testes
 
 ```
 npx codeceptjs run --steps

@@ -1,4 +1,5 @@
-# 🚀 Automação de Testes com CodeceptJS + WebDriver
+# Automação de Testes com CodeceptJS + WebDriver
+<br>
 
 
 ## 🎯 Sobre o Projeto

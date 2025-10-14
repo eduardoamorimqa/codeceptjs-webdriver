@@ -1,4 +1,4 @@
-# 🚀 Automação de Testes End-to-End com CodeceptJS e WebDriverIO
+# 🚀 Automação de Testes com CodeceptJS e WebDriverIO
 
 
 ## 🎯 Sobre o Projeto
@@ -83,7 +83,6 @@ Descrição: Comando atalho configurado no package.json para execução rápida.
 ```
 npm test
 ```
-<br>
 
 ### Autor
 

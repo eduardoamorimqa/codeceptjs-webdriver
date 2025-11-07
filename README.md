@@ -87,8 +87,12 @@ npm test
 
 ### Autor
 
-Desenvolvido por: Eduardo Amorim - Especialista em QA e Automação de Testes  
-LinkedIn: https://www.linkedin.com/in/eduardoamorim-ti/
+💼 Desenvolvido por: Eduardo Amorim - Especialista em QA e Automação de Testes  
+💻 LinkedIn: https://www.linkedin.com/in/eduardoamorim-ti/
+
+<br>
+
+<h3 align="center">⭐ Se este projeto te ajudou, não esqueça de deixar uma estrela no repositório!</h3>
 
 
 
